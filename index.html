@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi , Myself</h3>
+            <h1>Amandeep</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>🎓 Pursuing my B.Tech in electrical engineering from Shri Ram Group of College muzaffarnagar,<br>
+                I am dedicated to honing my skills in web development to create impactful digital experiences. Currently working diligently to enhance my proficiency in web technologies.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/aman.deep.chandel/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aman-deep-chandel-a78b19291/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/amanchandel31"><i class="fa-brands fa-github"></i></a>
+            </div>
+           
+            <a href="cv/amandep.pdf" class="btn">Download CV</a>
+        </div> 
+        <div class="home-img">
+            <img src="images/ppp.png" alt="portfolio">
+        </div>
+        
+    </section>
+
+      <!--About home section design -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/newabout.png" alt="about">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>MERN Stack Developer</h3>
+            <p id="span1">With a keen focus on web development, I leverage my expertise in the MERN stack to create dynamic and responsive web applications. Proficient in crafting sleek user interfaces and seamless user experiences, I excel in front-end technologies such as HTML, CSS, and JavaScript. Coupled with my strong backend skills in Node.js, Express, and MongoDB
+                 <span id="span"> I am adept at building robust and scalable web solutions tailored to meet diverse business needs. Continuously honing my skills through hands-on projects and staying updated with the latest industry advancements, I am dedicated to delivering high-quality and impactful web experiences.</span></p>
+            <a href="#about" class="btn" id="button" onclick="readmore()">Read more</a> 
+        </div>
+      </section>
+
+      <!--Services home section design -->
+      <setion class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p id="span2">As a skilled web developer, I offer comprehensive services tailored to meet the unique needs of clients seeking to establish a strong online presence. With expertise in front-end and back-end development, I excel in crafting visually appealing and highly functional websites 
+                    <span id="span3"> My proficiency spans across various technologies and frameworks, including HTML, CSS, JavaScript, React, and Node.js, enabling me to create dynamic and responsive web solutions. Whether it's designing intuitive user interfaces, optimizing site performance, or integrating robust backend functionalities, I am committed to delivering top-quality results that exceed client expectations. By staying updated with the latest industry trends and best practices, I ensure that every project is executed with precision and innovation, driving success for businesses across diverse sectors.</span></p>
+
+                <a href="#services" class="btn" id="button1" onclick="readmore1()">Read More </a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p id="span4">Transforming concepts into captivating digital experiences, our UI/UX development service crafts seamless interfaces that delight users and drive engagement 
+                    <span id="span5">
+                    With a keen focus on both aesthetics and functionality, we elevate brands through intuitive design solutions tailored to enhance user experiences across diverse platforms.
+                </span></p>
+                <a href="#services" class="btn" id="button2" onclick="readmore2()">Read More </a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-react"></i>
+                <h3>React Development</h3>
+                <p id="span6">As an adept React developer, I specialize in delivering tailored solutions that elevate your online presence. With a mastery of front-end and back-end development, I craft visually stunning and highly functional websites that captivate audiences. Proficient in HTML, CSS, JavaScript, React, and Node.js, 
+                    <span id="span7">
+                        I create dynamic and responsive web solutions that leave a lasting impact. From designing intuitive user interfaces to optimizing site performance and integrating robust backend functionalities, I am dedicated to exceeding your expectations at every turn. By staying abreast of industry trends and best practices, I ensure each project is executed with precision and innovation, driving success across diverse sectors.
+                    </span></p>
+                <a href="#services" class="btn" id="button3" onclick="readmore3()">Read More </a>
+            </div>
+
+        </div>
+      </setion>
+
+      <!-- Portfolio section -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/d1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Dino Jump</h4>
+                    <a href="https://github.com/amanchandel31/Dino-jump-game"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/d2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather App</h4>
+                    <a href="https://github.com/amanchandel31/weather-app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/search.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Image search</h4>
+                    <a href="https://github.com/amanchandel31/Image-Search-App"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/d4 (2).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Plan Width Love</h4>
+                    <a href="https://github.com/amanchandel31/Plan-with-love"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/d5.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Top Course</h4>
+                    <a href="https://github.com/amanchandel31/Top-course"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/d6.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Shopping Cart</h4>
+                    <a href="https://github.com/amanchandel31/ShoppingCart"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+      <!-- CONTACT section -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Fullname">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+      </section>
+      <!-- FOOTER design -->
+      <div class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Amandeep | All rights Recovered</p>
+
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+
+        </div>
+      </div>
+
+       <!--scroll revel js -->
+       <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!--typed js -->
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+       <!-- MAIN JS -->
+    <script src="script.js"></script>
+</body>
+</html>
